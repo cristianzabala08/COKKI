@@ -56,8 +56,8 @@ export default class ListView extends Component {
     singout = () => {
         return (
             Alert.alert(
-                'Alert Title',
-                'My Alert Msg',
+                'Sing out',
+                'Seguro que quieres salir',
                 [
                     { text: 'Ask me later', onPress: () => console.log('Ask me later pressed') },
                     {
